@@ -10,5 +10,5 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = env("mongodb+srv://Masterchinedum:sdChZXY70bmXGnGQ@vantest.rjsncpo.mongodb.net/?retryWrites=true&w=majority&appName=Vantest")
+  url      = env("DATABASE_URL")
 }
